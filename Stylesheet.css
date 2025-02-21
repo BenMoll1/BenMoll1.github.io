@@ -1,0 +1,31 @@
+/* Ben Moll 
+SIU Itec 236 - 001
+Date Developed: 2/1/25
+Date Tested: 2/2/25
+
+
+
+This handles the margins and I set the width of the site here as well as the background color*/
+body {
+    margin: 10px;
+    width: 725px;
+    background-color:burlywood
+}
+/* I placed a few headings for future use*/
+h1, h2, h3 {
+    padding: 10px;
+}
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+li{
+    padding-left: 10px;
+}
+/* This changes the way the image loads on the site, I made the changed that you made and hopefully this all runs smoothly
+I also like the way the comments work in CSS */
+img {
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: relative;
+}
