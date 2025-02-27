@@ -10,6 +10,8 @@
 <head>
   <!-- This area of code helps search engines know it english, the next two lines help with special characters and allows the web page to be accessed on all browsers-->
 <link rel="stylesheet"  href="styles.css">
+<link rel="stylesheet" href="slicknav.css">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ben's Bike Stop</title>
@@ -32,6 +34,13 @@
         <li><a href="Contact.htm">Contact Us</a></li> 
       </ul>
     </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#menu').slicknav();
+      });
+    </script>
   <p><strong>The mountain top bike shop</strong></p>
   <p>Our store offers plenty of mountain bikes built and specialized in traversing rocky terrian, uneven paths, and do not get caught when going over thick snow.</p>
   <p>We offer different types of bikes that help serve our purpose.  Dual suspension, Hardtail, and eMountain</p>
