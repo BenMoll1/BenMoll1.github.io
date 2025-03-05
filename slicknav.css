@@ -6,6 +6,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0 ;
+  width: 100%
 }
 .container {
 width: 90%;
@@ -17,7 +18,13 @@ width: 90%;
   flex: 1;
   padding: 10px;
 
-header { 
+header, h1, h2, h3  { 
+  width: 100%;
+}
+p {
+  width: 100%
+}
+li {
   width: 100%;
 }
 
