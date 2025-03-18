@@ -28,7 +28,8 @@ img {
     border: 2px solid blue;
     border-radius: 10px;
     position: relative;
-    width: 100%;
+    width: 25%;
+    align: center;
 }
 nav ul {
     list-style: none;
