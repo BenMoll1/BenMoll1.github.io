@@ -68,5 +68,5 @@ footer{
           transition: 0.3s ease-in-out;
         }
 .rollover:hover {
-          img scr="mountainbike2.jpg"
+          content: url('mountainbike2.jpg')
 }
