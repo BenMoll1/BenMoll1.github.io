@@ -8,52 +8,61 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <!-- This area of code helps search engines know it english, the next two lines help with special characters and allows the web page to be accessed on all browsers-->
-<link rel="stylesheet" href="styles.css"> 
-<link rel="stylesheet" href="slicknav.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-<title>Ben's Bike Stop</title>
-</head>  
-  <!--This is my image, I am not sure yet how to make it appear on the site but I have added the alt text-->
-  <img scr="images/mountainbike(1).jpg" alt="MPC Logo" width="500">
-<h1>
-     <nav id="nav_list">
-  <ul>
-    <li><a href="index.htm">Home</a></li>
-    <li><a href="rental.htm">Rentals</a></li>
-  </ul>
-  </nav>
-</h1>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds Of Prey Mountain Shop</title>
+   <link rel="stylesheet"  href="styles.css">
+   <link rel="stylesheet" href="slicknav.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <script>
+        const swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1;
+            loop: true,
+            navigation: {
+              nextE1: '.swiper-button-next',
+              prevE1: '.swiper-button-prev',
+            },
+            pagination: {
+             el: '.swiper-pagination',
+             clickable: true,
+            },
+        });
+    </script>
+</head>
 <body>
- 
-  <h2>The Bike Shop</h2>
-  <p><strong>The mountain top bike shop</strong></p>
-  <p>Our store offers plenty of mountain bikes built and specialized in traversing rocky terrian, uneven paths, and do not get caught when going over thick snow.</p>
-  <p>We offer different types of bikes that help serve our purpose.  Dual suspension, Hardtail, and eMountain</p>
-  <ul>
-    <li>Siskiu</li>
-    <li>Collosus</li>
-    <li>XF 979</li>
-    <li>E-xplore</li>
-    <li>GT Sensor</li>
-  </ul>
-
-  <p><strong>We're happy to order any other bikes that are not listed to help you get rolling smoothly</strong></p>
-  <p><strong><em>Save massive with our end of the year sales and back to season sales!</em></strong></p>
-  <!--href turns the user to a specific site, tells the browser where to navigate when the link is clicked-->
-  <p><a href="https://www.siu.edu" target="_blank">WWW.SIU.EDU</a></p>
-  <p>How to contact us!</p>
-  <ul>
-    <li>Phone Number: 618-922-0000</li>
-    <li>Email: <a href="benjamin.moll@wesellbikes.com">benjamin.moll@wesellbikes.com</a></li>
-  </ul>
-  <p><strong>STORE ADDRESS</strong></p>
-  <p>
-    Ben's Bike Shop<br>
-    101 Bikers Bolv<br>
-    Marion, IL 62959
-  </p>
+ <h1>Birds Of Prey Mountain Shop</h1>
+  <nav>
+      <ul>        
+        <li><a href="index.htm">Home</a></li>        
+        <li><a href="rental.htm">Rent Bikes</a></li>  
+        <li><a href="service.htm">Service</a></li>  
+        <li><a href="sales.htm">Sales</a></li>  
+        <li><a href="Contact.htm">Contact Us</a></li>         
+      </ul>
+    </nav>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#menu').slicknav();
+      });
+    </script>
+    <h1>New Skis On The Slope</h1>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="Images/NewSki2.jpg" alt="New Ski1"></div>
+              <div class="swiper-slide"><img src="Images/NewSki3.jpg" alt="New Ski2"></div>
+              <div class="swiper-slide"><img src="Images/NewSki4.jpg" alt="New Ski3"></div>
+              <div class="swiper-slide"><img src="Images/NewSki5.jpg" alt="New Ski4"></div>
+            </div>
+         
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-pagination"></div>
+        </div>
+   
 </body>
 </html>
