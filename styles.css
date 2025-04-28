@@ -23,4 +23,5 @@
     object-fit: contain;
 }
 main {
-  
+  display: flex;
+}
