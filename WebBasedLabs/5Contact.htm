@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Birds Of Prey Mountain Shop</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://code.jquery/com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min,js"></script>
+    </head>
+    <body>
+        <div class="bordered-site">
+            <div class="container">
+                <h1>Birds Of Prey Mountain Shop</h1>
+                <nav>
+                    <ul id="menu">
+                        <li><a href="1index.htm">Home</a></li>
+                        <li><a href="2SkiType.htm">Skier Type</a></li>
+                        <li><a href="3SkiSelection.htm">Ski Selection</a></li>
+                        <li><a href="4Sales.htm">Sales</a></li>
+                        <li><a href="5Contact.htm">Contact</a></li>
+                        <li><a href="6AboutUs.htm">Recommended Skiing</a></li>
+                    </ul>
+                </nav>
+                <h1>Contact Us</h1>
+                <section>
+                    <p>Fill out the form below, we will get back to you momentarily</p>
+                </section>
+                <section>
+                    <form method="get" action="thankyou.htm">
+                        <label for="fname">First Name:</label><br />
+                        <input type="text" id="fname" name="fname" required /><br /><br />
+
+                        <label for="lname">Last Name:</label><br />
+                        <input type="text" id="lname" name="lname" required /><br /><br />
+
+                        <label for="email">Email:</label><br />
+                        <input type="email" id="email" name="email" required /><br /><br />
+
+                        <label for="comments">Comments:</label><br />
+                        <textarea id="comments" name="comments" rows="4" cols="40" required></textarea><br /><br />
+
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Reset" />
+                    </form>
+                </section>
+                <script>
+                    $(function () {
+                        $("#menu").slicknav();
+                    });
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
